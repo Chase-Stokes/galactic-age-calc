@@ -19,3 +19,7 @@ Life.prototype.venusExpectancy = function(){
   this.lifeExpectancy /= .62;
   return this.lifeExpectancy;
 }
+
+Life.prototype.marsExpectancy = function(){
+  
+}
