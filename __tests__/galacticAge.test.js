@@ -7,14 +7,9 @@ describe('Life', () => {
     const user = new Life (18);
     expect(user.age).toEqual(18);
     expect(user.lifeExpectancy).toEqual(79);
-    expect(user.mercury).toEqual();
-    expect(user.venus).toEqual();
-    expect(user.mars).toEqual();
-    expect(user.jupiter).toEqual();
+    expect(user.mercury).toEqual(75);
+    expect(user.venus).toEqual(29.03);
+    expect(user.mars).toEqual(9.57);
+    expect(user.jupiter).toEqual(1.52);
   })
 })
-
-    // this.mercury = (this.age / .24)
-    // this.venus = (this.age / .62)
-    // this.mars = (this.age / 1.88)
-    // this.jupiter = (this.age / 11.86)
