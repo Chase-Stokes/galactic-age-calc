@@ -30,6 +30,6 @@ describe('Life', () => {
     let user = new Life(18);
     user.marsExpectancy();
     expect(user.lifeExpectancy).toEqual(9.574468085106383)
-  })
+  });
 })
 
