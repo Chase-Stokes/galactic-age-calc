@@ -9,7 +9,7 @@ export default class Life {
     this.jupiter = (this.age / 11.86)
     this.mercTimeLeft = (this.lifeExpectancy / .24) - ( this.age / .24)
     this.venTimeLeft = (this.lifeExpectancy / .62) - ( this.age / .62)
-    this.marsTimeLeft = marsTimeLeft
+    this.marsTimeLeft = (this.lifeExpectancy / 1.88) - ( this.age / 1.88)
     this.jupTimeLeft = jupTimeLeft
   }
 }
