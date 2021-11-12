@@ -37,5 +37,11 @@ describe('Life', () => {
     user.jupiterExpectancy();
     expect(user.lifeExpectancy).toEqual(6.661045531197302)
   });
+
+  test('it should tell you your remaining years left on mercury', () => {
+    let user = new Life(18);
+    user.yearsRemaining();
+    expect(this.timeLeft).toEqual(75);
+  })
 })
 

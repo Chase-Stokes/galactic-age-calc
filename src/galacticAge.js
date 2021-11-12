@@ -7,6 +7,7 @@ export default class Life {
     this.venus = (this.age / .62)
     this.mars = (this.age / 1.88)
     this.jupiter = (this.age / 11.86)
+    this.timeLeft = timeLeft
   }
 }
 
@@ -27,4 +28,8 @@ Life.prototype.marsExpectancy = function(){
 
 Life.prototype.jupiterExpectancy = function(){
   this.lifeExpectancy /= 11.86;
+}
+
+Life.prototype.yearsRemaining = function(){
+
 }
