@@ -9,3 +9,7 @@ export default class Life {
     this.jupiter = (this.age / 11.86)
   }
 }
+
+Life.prototype.mercuryExpectancy = function(){
+  
+}
