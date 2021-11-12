@@ -56,7 +56,7 @@ describe('Life', () => {
   test('it should tell you your remaining years left on jupiter', () => {
     let user = new Life(18);
     expect(user.jupTimeLeft).toEqual(5.143338954468803)
-  })
+  });
 
 })
 
