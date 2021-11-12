@@ -40,9 +40,18 @@ describe('Life', () => {
 
   test('it should tell you your remaining years left on mercury', () => {
     let user = new Life(18);
-    user.yearsRemaining();
-    expect(user.timeLeft).toEqual(254.16666666666669);
+    expect(user.mercTimeLeft).toEqual(254.16666666666669);
   });
+
+  test('it should tell you your remaining years left on venus', () => {
+    let user = new Life(18);
+    expect(user.venTimeLeft).toEqual(98.38709677419355)
+  });
+
+  test('it should tell you your remaining years left on mars', () => {
+    let user = new Life(18);
+    expect(user.marsTimeLeft).toEqual(32.4468085106383)
+  })
 
 })
 
