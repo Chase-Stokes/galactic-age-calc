@@ -51,7 +51,7 @@ describe('Life', () => {
   test('it should tell you your remaining years left on mars', () => {
     let user = new Life(18);
     expect(user.marsTimeLeft).toEqual(32.4468085106383)
-  })
+  });
 
 })
 
