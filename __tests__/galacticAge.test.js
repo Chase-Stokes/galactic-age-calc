@@ -20,6 +20,6 @@ describe('Life', () => {
 
   test('it should return your life expectancy on mercury', () => {
     user.mercuryExpectancy();
-    expect()toEqual();
+    expect(output).toEqual(329.16);
   })
 })
