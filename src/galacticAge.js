@@ -24,3 +24,7 @@ Life.prototype.marsExpectancy = function(){
   this.lifeExpectancy /= 1.88;
   return this.lifeExpectancy;
 }
+
+Life.prototype.jupiterExpectancy = function(){
+  
+}
