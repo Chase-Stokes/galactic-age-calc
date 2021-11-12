@@ -11,5 +11,6 @@ export default class Life {
 }
 
 Life.prototype.mercuryExpectancy = function(){
-  
+  this.lifeExpectancy /= .24;
+  return this.lifeExpectancy;
 }
