@@ -1,6 +1,6 @@
 export default class Life {
 
-  constructor(age){
+  constructor(age, timeLeft){
     this.age = age
     this.lifeExpectancy = 79
     this.mercury = (this.age / .24)
@@ -10,6 +10,7 @@ export default class Life {
     this.timeLeft = timeLeft
   }
 }
+
 
 Life.prototype.mercuryExpectancy = function(){
   this.lifeExpectancy /= .24;
@@ -31,5 +32,5 @@ Life.prototype.jupiterExpectancy = function(){
 }
 
 Life.prototype.yearsRemaining = function(){
-
+  
 }
