@@ -23,6 +23,6 @@ describe('Life', () => {
   test('it should return your life expectancy on venus', () => {
     let user = new Life(18);
     user.venusExpectancy();
-    expect(user.lifeExpectancy).toEqual(29.03225806451613)
+    expect(user.lifeExpectancy).toEqual(127.41935483870968)
   });
 })
