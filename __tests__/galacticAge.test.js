@@ -36,6 +36,6 @@ describe('Life', () => {
     let user = new Life(18);
     user.jupiterExpectancy();
     expect(user.lifeExpectancy).toEqual(6.661045531197302)
-  })
+  });
 })
 
