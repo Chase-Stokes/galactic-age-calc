@@ -24,5 +24,5 @@ describe('Life', () => {
     let user = new Life(18);
     user.venusExpectancy();
     expect(user.lifeExpectancy).toEqual(29.03225806451613)
-  })
+  });
 })
