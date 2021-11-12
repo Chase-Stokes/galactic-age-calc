@@ -14,3 +14,7 @@ Life.prototype.mercuryExpectancy = function(){
   this.lifeExpectancy /= .24;
   return this.lifeExpectancy;
 }
+
+Life.prototype.venusExpectancy = function(){
+  
+}
