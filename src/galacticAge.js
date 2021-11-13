@@ -1,6 +1,6 @@
 export default class Life {
 
-  constructor(age, mercTimeLeft, venTimeLeft, marsTimeLeft, jupTimeLeft){
+  constructor(age){
     this.age = age
     this.lifeExpectancy = 79
     this.mercury = (this.age / .24)
