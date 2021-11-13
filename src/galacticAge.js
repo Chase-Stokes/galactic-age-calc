@@ -17,19 +17,18 @@ export default class Life {
 
 Life.prototype.mercuryExpectancy = function(){
   this.lifeExpectancy /= .24;
-  return this.lifeExpectancy;
 }
 
 Life.prototype.venusExpectancy = function(){
   this.lifeExpectancy /= .62;
-  return this.lifeExpectancy;
 }
 
 Life.prototype.marsExpectancy = function(){
   this.lifeExpectancy /= 1.88;
-  return this.lifeExpectancy;
 }
 
 Life.prototype.jupiterExpectancy = function(){
   this.lifeExpectancy /= 11.86;
 }
+
+
