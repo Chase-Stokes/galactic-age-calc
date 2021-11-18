@@ -12,6 +12,14 @@ export default class Life {
     this.marsTimeLeft = (this.lifeExpectancy / 1.88) - ( this.age / 1.88)
     this.jupTimeLeft = (this.lifeExpectancy / 11.86) - ( this.age / 11.86)
   }
+
+  yearsPastExpectancy(){
+    if (this.age > this.lifeExpectancy){
+      return this.age - this.lifeExpectancy;
+    } else {
+      return `you have ${this.lifeExpectancy - this.age} years left ` 
+    }
+  }
 }
 
 

@@ -11,6 +11,7 @@
 * _CSS_
 * _Markdown_
 * _Jest_
+*_Webpack_
 
 
 ## Description
@@ -22,8 +23,10 @@ _Business logic to determine your age on other planets, as well as life expectan
 
 * _You can find the github repository [here](https://github.com/Chase-Stokes/galactic-age-calc)_
 * _Clone the repository to your computer_
-* _Run "npm init -y" in your terminal_
+* _Run "npm install" in your terminal_
+*_Run "npm run build" in your terminal_
 * _Run "npm run start" in your terminal to view changes made to html_
+*_To test for yourself run "npm run test" in your terminal to see the results and coverage_
 
 
 
